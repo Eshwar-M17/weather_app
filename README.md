@@ -49,8 +49,29 @@ A modern Flutter weather application with a clean architecture, beautiful UI, an
 - Consistent naming conventions and code structure
 - Proper null safety implementation
 - Modular and reusable components
-| <img src="screenshots/screenshot_1.jpg" alt="Product Catalogue" width="200"/> | <img src="screenshots/screenshot_2.jpg" alt="Product Details" width="200"/> | <img src="screenshots/screenshot_3.jpg" alt="Shopping Cart" width="200"/> | <img src="screenshots/screenshot_4.jpg" alt="Checkout" width="200"/> |
-| --- | --- | --- | --- |
+
+### Screenshots
+<details>
+  <summary>View Screenshots</summary>
+  <div style="display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 20px; padding: 10px;">
+    <div style="text-align: center; min-width: 300px;">
+      <img src="screenshots/shot1.jpg" alt="Home Screen" width="300">
+      <br>
+      <em>Main dashboard with current weather and detailed metrics</em>
+    </div>
+    <div style="text-align: center; min-width: 300px;">
+      <img src="screenshots/shot2.jpg" alt="Forecast View" width="300">
+      <br>
+      <em>Detailed forecast view with hourly and daily predictions</em>
+    </div>
+    <div style="text-align: center; min-width: 300px;">
+      <img src="screenshots/shot3.jpg" alt="Weather Details" width="300">
+      <br>
+      <em>Comprehensive weather details with air quality and UV index</em>
+    </div>
+  </div>
+</details>
+
 
 
 ## Demo Video
