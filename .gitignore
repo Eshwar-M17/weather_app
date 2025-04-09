@@ -56,7 +56,7 @@ lib/core/constants/api_keys.dart
 .env.production
 
 # Project specific
-.ui_design_images
+
 .cursorrules
 project_instruction.md
 
