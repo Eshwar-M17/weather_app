@@ -51,8 +51,7 @@ A modern Flutter weather application with a clean architecture, beautiful UI, an
 - Modular and reusable components
 
 ### Screenshots
-<details>
-  <summary>View Screenshots</summary>
+
   <div style="display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 20px; padding: 10px;">
     <div style="text-align: center; min-width: 300px;">
       <img src="screenshots/shot1.jpg" alt="Home Screen" width="300">
@@ -70,7 +69,7 @@ A modern Flutter weather application with a clean architecture, beautiful UI, an
       <em>Comprehensive weather details with air quality and UV index</em>
     </div>
   </div>
-</details>
+
 
 
 
