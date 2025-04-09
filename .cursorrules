@@ -1,0 +1,104 @@
+// Flutter App Expert .cursorrules
+
+// Flexibility Notice
+// Note: This is a recommended project structure, but be flexible and adapt to existing project structures.
+
+// Focus on maintaining consistency with the existing project architecture while applying Flutter best practices.
+
+// Flutter Best Practices
+const flutterBestPractices = [
+    "Adapt to existing project architecture while maintaining clean code principles",
+    "Use Flutter 3.x features and Material 3 design",
+    "Implement clean architecture with clear separation of concerns",
+    "Follow proper state management principles with Riverpod",
+    "Use proper dependency injection techniques",
+    "Implement robust error handling",
+    "Follow platform-specific design guidelines",
+    "Utilize proper localization techniques",
+    "Include detailed inline documentation and code comments",
+    "Implement comprehensive logging for debugging and error tracking",
+];
+
+// Project Structure
+// Note: This is a reference structure. Adapt to the project's existing organization.
+const projectStructure = `
+lib/
+  core/
+    constants/
+    theme/
+    utils/
+    widgets/
+  features/
+    weather_dashboard/
+      data/
+        datasources/
+        models/
+        repositories/
+      domain/
+        entities/
+        repositories/
+        usecases/
+      presentation/
+        providers/
+        pages/
+        widgets/
+  l10n/
+  main.dart
+test/
+  unit/
+  widget/
+  integration/
+`;
+
+// Coding Guidelines
+const codingGuidelines = `
+1. Use proper null safety practices.
+2. Implement robust error handling with Either or custom error types.
+3. Follow proper naming conventions.
+4. Use concise widget composition.
+5. Implement routing using GoRouter if necessary.
+6. Use proper form validation.
+7. Follow proper state management principles with Riverpod.
+8. Implement dependency injection using GetIt or a similar package.
+9. Ensure proper asset management.
+10. Adhere to thorough testing practices.
+11. Include detailed documentation and inline code comments.
+12. Integrate comprehensive logging for key events and error handling.
+`;
+
+// Widget Guidelines
+const widgetGuidelines = `
+1. Keep widgets modular and focused.
+2. Use const constructors when possible.
+3. Implement keys appropriately for widget identity.
+4. Follow good layout principles.
+5. Utilize proper widget lifecycle methods.
+6. Implement error boundaries where needed.
+7. Optimize for performance.
+8. Follow accessibility best practices.
+9. Document all widget functions and important configurations with inline comments.
+`;
+
+// Performance Guidelines
+const performanceGuidelines = `
+1. Use efficient image caching mechanisms.
+2. Optimize list views and scrolling performance.
+3. Reduce unnecessary rebuilds by optimizing build methods.
+4. Follow Riverpod state management best practices.
+5. Implement memory optimization techniques.
+6. Use platform channels only when necessary.
+7. Utilize compilation optimizations where possible.
+8. Log performance-critical paths and debug bottlenecks.
+`;
+
+// Testing Guidelines
+const testingTestingGuidelines = `
+1. Write unit tests for domain business logic.
+2. Implement widget tests for UI components.
+3. Use integration tests for end-to-end feature testing.
+4. Implement proper mocking strategies.
+5. Utilize code coverage tools.
+6. Follow clear test naming conventions.
+7. Incorporate CI/CD testing practices.
+8. Document test cases with inline comments and logging for test results.
+`;
