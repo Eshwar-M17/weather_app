@@ -55,20 +55,20 @@ A modern Flutter weather application with a clean architecture, beautiful UI, an
 <details>
   <summary>View Screenshots</summary>
 
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-    <div style="text-align: center;">
+  <div style="display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 20px; padding: 10px;">
+    <div style="text-align: center; min-width: 300px;">
       <img src="screenshots/shot1.jpg" alt="Home Screen" width="300">
       <br>
       <em>Main dashboard with current weather and detailed metrics</em>
     </div>
 
-    <div style="text-align: center;">
+    <div style="text-align: center; min-width: 300px;">
       <img src="screenshots/shot2.jpg" alt="Forecast View" width="300">
       <br>
       <em>Detailed forecast view with hourly and daily predictions</em>
     </div>
 
-    <div style="text-align: center;">
+    <div style="text-align: center; min-width: 300px;">
       <img src="screenshots/shot3.jpg" alt="Weather Details" width="300">
       <br>
       <em>Comprehensive weather details with air quality and UV index</em>
@@ -76,6 +76,7 @@ A modern Flutter weather application with a clean architecture, beautiful UI, an
   </div>
 
 </details>
+
 
 
 ## Demo Video
